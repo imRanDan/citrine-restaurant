@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Citrine - Gastropub by the Shore</title>
-    <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
     <nav class="nav">
@@ -25,13 +27,15 @@
     </header>
 
     <!-- About us -->
-    <section id="about" class="section">
+    <section id="about" class="section" data-aos="fade-up">
         <h2>Our Story</h2>
         <p>Citrine blends seaside charm with upscale pub fare-offering fresh seafood, stacked burgers, and craft cocktails in a cozy, modern space.</p>
     </section>
 
+    <!-- End of About Us -->
+
     <!-- Menu  -->
-     <section id="menu" class="section">
+     <section id="menu" class="section" data-aos="fade-up">
         <h2>Signature Dishes</h2>
         <div class="menu-grid">
             <div class="menu-item">
@@ -51,23 +55,47 @@
             </div>
         </div>
      </section>
+     <!-- End of Menu -->
+
+    <!-- Highlights -->
+    <section class="section highlight" data-aos="fade-up">
+        <h2>Happy Hour by the Shore</h2>
+        <p>Weekdays from 4–6pm. Half-price cocktails & small plates with an ocean view.</p>
+        <a href="#contact" class="cta-btn">Reserve a Table</a>
+    </section>
+    <!-- End of Highlight  -->
+
+    <!-- Testimonials -->
+       <section class="section testimonials" data-aos="fade-up">
+    <h2>What Our Guests Say</h2>
+    <div class="testimonial">
+      <p>“Easily the best scallops I’ve had in years. Perfect vibe, killer drinks, and unbeatable view.”</p>
+      <h4>– Emily C., Local Guide</h4>
+    </div>
+  </section>
+  <!-- End of Testimonials -->
 
      <!-- Hours & Contact -->
-      <section id="hours" class="section">
+      <section id="hours" class="section" data-aos="fade-up">
         <h2>Hours of Operation</h2>
         <p>Mon-Fri: 4pm - 11pm | Sat-Sun: 12pm - Midnight</p>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact" class="section" data-aos="fade-up">
         <h2>Find Us</h2>
         <p>123 Shoreline Ave, Coastal City</p>
         <p>Email: info@citrinegastropub.com | (555) 123-4567</p>
       </section>
+      <!-- End of Hours and Contact -->
+
 
       <footer>
-        <p>&copy; 2025 Cirtrine Gastropub. All rights reserved.</p>
+        <p>&copy; 2025 Citrine Gastropub. All rights reserved.</p>
       </footer>
 
-      <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
