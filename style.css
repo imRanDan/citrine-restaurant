@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfb;
+  color: #333;
+}
+.hero {
+  background: url('assets/citrine-pic1.avif') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.hero-content {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.hero-content h1 {
+  font-size: 3rem;
+}
+.cta-button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #d4a017;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.menu-item {
+  width: 300px;
+}
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
